@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 80px;
+}
+.nav__ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 45px;
+}
+.nav__btn1 {
+  border: none;
+  background: inherit;
+}
+.nav__anchor {
+  color: black;
+}
+.nav__btn2 {
+  color: white;
+  background: hsla(211, 82%, 45%, 1);
+  border-radius: 8px;
+  padding: 9px 12px;
+  border: none;
+}
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__card1 {
+  display: flex;
+  border-left: 2px solid black;
+}
+.hero__card2 {
+  display: flex;
+  border-left: 2px solid black;
+}
+.hero__card3 {
+  border-left: 2px solid black;
+  display: flex;
+}
+.hero__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 50px;
+  border: 1px solid black;
+  border-radius: 16px;
+  height: 72px;
+}
+.hero__cards--btn {
+  padding: 18.5px 51px;
+  border-radius: 8px;
+  background-color: hsla(211, 82%, 45%, 1);
+  color: white;
+}
+.hero2__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.hero__car-logo {
+  padding-top: 200px;
+}
+.hero4__jaguar {
+width: 300px;
+  margin: 50px;
+  padding: 20px;
+  display: inline-block;
+  background: linear-gradient(white);
+}
+.title {
+
+  padding: 8px 110px;
+}
+.hero__btn4 {
+  padding: 4px 11px;
+  margin: 10px;
+  border-radius: 8px;
+  background: linear-gradient(hsla(211, 82%, 45%, 1));
+  border: none;
+}
+.hero4__wrapper {
+margin-top: 100px;
+  display: flex; 
+justify-content: space-between;
+}
+.hero3__cards {
+margin-left: 900px;
+}
+.audi {
+
+
+}
+.wword {
+  background: aqua;
+  
+}
+
+
